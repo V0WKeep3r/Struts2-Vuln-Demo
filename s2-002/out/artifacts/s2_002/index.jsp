@@ -9,9 +9,10 @@
 </head>
 <body>
 <h2>S2-002 Demo</h2>
-<%--<s:url id="url" action="login" includeParams="all"></s:url>--%>
-<s:url action="login" includeParams="all"></s:url>
-<s:a href="%{url}">click</s:a>
+
+<s:url action="login" includeParams="all" id="testurl"></s:url>
+
+<s:a href="%{testurl}">click</s:a>
 
 
 
